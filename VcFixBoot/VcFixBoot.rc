@@ -130,8 +130,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,24,1,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -148,12 +148,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "IDRIX"
             VALUE "FileDescription", "Fixit Tool for VeraCrypt EFI Bootloader"
-            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "FileVersion", "1, 1, 0, 0"
             VALUE "InternalName", "VcFixBoot"
             VALUE "LegalCopyright", "Copyright 2019 IDRIX"
             VALUE "OriginalFilename", "VcFixBoot.exe"
             VALUE "ProductName", "VeraCrypt"
-            VALUE "ProductVersion", "1, 24, 0, 1"
+            VALUE "ProductVersion", "1, 24, 1, 0"
         END
     END
     BLOCK "VarFileInfo"
